@@ -56,6 +56,7 @@ int _unsetenv(info_t *info, char *var)
  *        constant function prototype.
  * @var: the string env var property
  * @value: the string env var value
+
  *  Return: Always 0
  */
 int _setenv(info_t *info, char *var, char *value)

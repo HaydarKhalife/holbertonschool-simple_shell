@@ -1,0 +1,99 @@
+.TH SIMPLE_SHELL 1 "December 2023" "Simple Shell Manual"
+
+.SH NAME
+simple_shell \- a basic shell implementation by Haydar khalife
+
+.SH SYNOPSIS
+.B simple_shell
+[\fIOPTION\fR]... [\fICOMMAND [ARGUMENTS]\fR]
+
+.SH DESCRIPTION
+\fBsimple_shell\fR is a lightweight and interactive shell designed for basic command-line operations.
+
+.SH OPTIONS
+.TP
+.BR -h, --help
+Display help message and exit.
+
+.SH COMMANDS
+.TP
+.BR ls
+List files and directories in the current directory.
+
+.TP
+.BR cd \fIDIRECTORY\fR
+Change the current working directory to \fIDIRECTORY\fR.
+
+.TP
+.BR cp \fIFILE SOURCE DESTINATION\fR
+Copy \fIFILE\fR from \fISOURCE\fR to \fIDESTINATION\fR.
+
+.TP
+.BR mv \fIFILE SOURCE DESTINATION\fR
+Move \fIFILE\fR from \fISOURCE\fR to \fIDESTINATION\fR.
+
+.TP
+.BR rm \fIFILE\fR
+Remove (\fIDELETE\fR) \fIFILE\fR.
+
+.TP
+.BR echo \fIARGUMENTS\fR
+Print \fIARGUMENTS\fR to the standard output.
+
+.TP
+.BR string \fISTRING1 STRING2\fR
+Concatenate \fISTRING1\fR and \fISTRING2\fR.
+
+.TP
+.BR history
+Display command history.
+
+.TP
+.BR help
+Display help information.
+
+.TP
+.BR exit
+Exit the shell.
+
+.TP
+.BR alias \fIALIAS_NAME COMMAND\fR
+Create an alias for \fICOMMAND\fR with the name \fIALIAS_NAME\fR.
+
+.SH USAGE
+To use \fBsimple_shell\fR, simply run the executable with the desired command.
+
+.P
+For example:
+.B simple_shell ls -l
+
+.SH EXAMPLES
+.TP
+.B simple_shell ls -l
+List the contents of the current directory in long format.
+
+.TP
+.B simple_shell alias ll ls -l
+Create an alias \fBll\fR for \fBls -l\fR.
+
+.SH EXIT STATUS
+.B simple_shell
+exits with the exit status of the executed command or 0 if no command is provided.
+
+.SH AUTHORS
+This shell was developed by filling a template by haidar khalife
+
+.SH SEE ALSO
+.BR bash (1),
+.BR sh (1),
+.BR dash (1).
+
+.SH BUGS
+No bugs so no need to put an email to report my bugs, Thanks
+
+.SH COPYRIGHT
+Copyright to chatgpt/github/people who did such manuals and maybe me
+
+.SH NOTES
+This manual page is a basic template. Please customize it according to your shell's specific features and functionalities.
+

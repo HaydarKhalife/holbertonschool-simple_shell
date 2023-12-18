@@ -3,7 +3,7 @@
 /**
  * interactive - returns true if shell is interactive mode
  * @info: struct address
- *
+ * C aswa2 shi momken teshte8l fe be hayetak
  * Return: 1 if interactive mode, 0 otherwise
  */
 

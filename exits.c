@@ -65,6 +65,7 @@ char *_strncat(char *dest, char *src, int n)
  * @s: the string to be parsed
  * @c: the character to look for
  * Return: a pointer to the first occurrence of the character c
+
  */
 char *_strchr(char *s, char c)
 {
